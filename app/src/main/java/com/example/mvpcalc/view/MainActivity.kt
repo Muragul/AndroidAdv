@@ -1,7 +1,8 @@
-package com.example.mvpcalc
+package com.example.mvpcalc.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mvpcalc.R
 
 class MainActivity : AppCompatActivity() {
 
