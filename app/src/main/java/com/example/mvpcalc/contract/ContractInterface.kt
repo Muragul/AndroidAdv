@@ -2,13 +2,12 @@ package com.example.mvpcalc.contract
 
 interface ContractInterface {
     interface Model{
-        fun getInfo()
+        fun getResult(): Double
     }
     interface View{
         fun initView()
-        fun updateViewData()
+        fun updateView()
     }
     interface Presenter{
-        fun showInfo()
     }
 }
