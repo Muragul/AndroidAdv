@@ -11,7 +11,7 @@ import com.example.mvpcalc.presenter.Presenter
 
 
 class MainActivity : AppCompatActivity(), ContractInterface.View {
-    private var presenter: Presenter? = null
+    private lateinit var presenter: Presenter
     private lateinit var input: TextView
     private lateinit var oper: TextView
     private lateinit var b0: Button
@@ -85,10 +85,98 @@ class MainActivity : AppCompatActivity(), ContractInterface.View {
             bsin = findViewById(R.id.bsin)
             bcos = findViewById(R.id.bcos)
             btan = findViewById(R.id.btan)
+            bsqrn.setOnClickListener{
+                presenter.biFunctionClicked("a^n")
+            }
+            bsqrtn.setOnClickListener {
+                presenter.biFunctionClicked("sqrtn")
+            }
+            bsin.setOnClickListener {
+                presenter.monoFunctionClicked("sin")
+            }
+            bcos.setOnClickListener {
+                presenter.monoFunctionClicked("cos")
+            }
+            btan.setOnClickListener {
+                presenter.monoFunctionClicked("tan")
+            }
+            bln.setOnClickListener {
+                presenter.monoFunctionClicked("ln")
+            }
+            bfact.setOnClickListener {
+                presenter.monoFunctionClicked("!")
+            }
+            blog.setOnClickListener {
+                presenter.biFunctionClicked("log")
+            }
+        }
+        b0.setOnClickListener {
+            presenter.buttonClicked(0)
+        }
+        b1.setOnClickListener{
+            presenter.buttonClicked(1)
+        }
+        b2.setOnClickListener{
+            presenter.buttonClicked(2)
+        }
+        b3.setOnClickListener{
+            presenter.buttonClicked(3)
+        }
+        b4.setOnClickListener {
+            presenter.buttonClicked(4)
+        }
+        b5.setOnClickListener {
+            presenter.buttonClicked(5)
+        }
+        b6.setOnClickListener {
+            presenter.buttonClicked(6)
+        }
+        b7.setOnClickListener {
+            presenter.buttonClicked(7)
+        }
+        b8.setOnClickListener {
+            presenter.buttonClicked(8)
+        }
+        b9.setOnClickListener {
+            presenter.buttonClicked(9)
+        }
+        bsqrt.setOnClickListener {
+            presenter.monoFunctionClicked("sqrt")
+        }
+        bsqr.setOnClickListener {
+            presenter.monoFunctionClicked("sqr")
+        }
+        bper.setOnClickListener {
+            presenter.monoFunctionClicked("per")
+        }
+        bsum.setOnClickListener {
+            presenter.biFunctionClicked("sum")
+        }
+        bdif.setOnClickListener {
+            presenter.biFunctionClicked("dif")
+        }
+        bmult.setOnClickListener {
+            presenter.biFunctionClicked("mult")
+        }
+        bdiv.setOnClickListener {
+            presenter.biFunctionClicked("div")
+        }
+        bclear.setOnClickListener {
+            presenter.clear()
+        }
+        bdel.setOnClickListener {
+            presenter.delete()
+        }
+        bdot.setOnClickListener {
+            presenter.dot()
+        }
+        bres.setOnClickListener {
+            presenter.getResult()
         }
     }
 
     override fun updateView() {
-        TODO("Not yet implemented")
+        input.text = presenter.getResult()
+        oper.text = presenter.getOperation()
     }
 }
