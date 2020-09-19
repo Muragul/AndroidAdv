@@ -32,7 +32,7 @@ class Presenter(_view: ContractInterface.View) : ContractInterface.Presenter {
         view.updateView()
     }
 
-    override fun getResult(): String = model.getResult().toString()
+    override fun getInput(): String = model.getInput()
 
     override fun monoFunctionClicked(s: String) {
         model.monoFunctionClicked(s)

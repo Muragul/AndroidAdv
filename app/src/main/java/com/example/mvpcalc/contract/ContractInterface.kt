@@ -6,12 +6,13 @@ interface ContractInterface {
         fun clear()
         fun dot()
         fun buttonClicked(n: Int)
-        fun getResult(): Double
+        fun getResult()
         fun monoFunction(s: String)
         fun biFunction(s: String)
         fun monoFunctionClicked(s: String)
         fun biFunctionClicked(s: String)
         fun getOperation(): String
+        fun getInput(): String
     }
     interface View{
         fun initView()
@@ -22,9 +23,9 @@ interface ContractInterface {
         fun clear()
         fun dot()
         fun buttonClicked(n: Int)
-        fun getResult(): String
         fun monoFunctionClicked(s: String)
         fun biFunctionClicked(s: String)
         fun getOperation(): String
+        fun getInput(): String
     }
 }

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import com.example.mvpcalc.R
 import com.example.mvpcalc.contract.ContractInterface
 import com.example.mvpcalc.presenter.Presenter
@@ -85,7 +86,7 @@ class MainActivity : AppCompatActivity(), ContractInterface.View {
             bsin = findViewById(R.id.bsin)
             bcos = findViewById(R.id.bcos)
             btan = findViewById(R.id.btan)
-            bsqrn.setOnClickListener{
+            bsqrn.setOnClickListener {
                 presenter.biFunctionClicked("a^n")
             }
             bsqrtn.setOnClickListener {
@@ -113,13 +114,13 @@ class MainActivity : AppCompatActivity(), ContractInterface.View {
         b0.setOnClickListener {
             presenter.buttonClicked(0)
         }
-        b1.setOnClickListener{
+        b1.setOnClickListener {
             presenter.buttonClicked(1)
         }
-        b2.setOnClickListener{
+        b2.setOnClickListener {
             presenter.buttonClicked(2)
         }
-        b3.setOnClickListener{
+        b3.setOnClickListener {
             presenter.buttonClicked(3)
         }
         b4.setOnClickListener {
@@ -171,12 +172,13 @@ class MainActivity : AppCompatActivity(), ContractInterface.View {
             presenter.dot()
         }
         bres.setOnClickListener {
-            presenter.getResult()
+            presenter.biFunctionClicked("")
         }
     }
 
     override fun updateView() {
-        input.text = presenter.getResult()
+        input.text = presenter.getInput()
         oper.text = presenter.getOperation()
     }
+
 }

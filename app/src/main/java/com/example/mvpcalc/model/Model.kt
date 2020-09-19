@@ -14,7 +14,9 @@ class Model : ContractInterface.Model {
     var complete: Boolean = false
     var entermode: Int = 1
     var f: Int = 0
-    var input: String = "0"
+    private var input: String = "0"
+    override fun getInput(): String = input
+
     var oper: String = ""
 
     override fun delete() {
@@ -24,7 +26,7 @@ class Model : ContractInterface.Model {
             if (input.contains("-") && input.length == 2) {
                 input = "0"
             } else if (input.length != 1) {
-                val s = input.toString()
+                val s = input
                 val s1 = s.substring(0, s.length - 1)
                 input = s1
             } else {
@@ -53,12 +55,11 @@ class Model : ContractInterface.Model {
     }
 
     override fun dot() {
-        if (input == "")
+        if (input == "" || isWord())
             input = "0."
         else {
             if (!input.contains(".") && !isWord()) {
-                val s = "$input."
-                input = s
+                input += '.'
             }
         }
     }
@@ -71,8 +72,7 @@ class Model : ContractInterface.Model {
                 input = s
                 complete = false
             } else {
-                val k: String = input
-                input = k + s
+                input += s
             }
             if (bi != "") {
                 sec = true
@@ -85,13 +85,13 @@ class Model : ContractInterface.Model {
         }
     }
 
-    override fun getResult(): Double {
+    override fun getResult() {
         if (entermode == 1 && input.contains(".")) {
             if (input == "0.0")
                 input = "0"
             else
                 while (input[input.length - 1] == '0') {
-                    val s: String = input.toString()
+                    val s: String = input
                     var s1: String = s.substring(0, s.length - 1)
                     if (s1[s1.length - 1] == '.')
                         s1 = s1.substring(0, s1.length - 1)
@@ -115,7 +115,6 @@ class Model : ContractInterface.Model {
             complete = true
             sec = false
         }
-        return res
     }
 
     override fun monoFunction(operation: String) {
