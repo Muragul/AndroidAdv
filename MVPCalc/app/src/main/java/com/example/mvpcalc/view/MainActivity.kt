@@ -3,6 +3,7 @@ package com.example.mvpcalc.view
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -44,7 +45,6 @@ class MainActivity : AppCompatActivity(), ContractInterface.View {
     private lateinit var bsin: Button
     private lateinit var bcos: Button
     private lateinit var btan: Button
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
