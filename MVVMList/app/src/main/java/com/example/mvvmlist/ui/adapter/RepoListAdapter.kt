@@ -1,12 +1,15 @@
 package com.example.mvvmlist.ui.adapter
 
+import android.graphics.Movie
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mvvmlist.data.model.ApiResponse
-import com.example.mvvmlist.ui.adapter.viewholder.RepoListViewHolder
 import com.example.mvvmlist.databinding.ViewRepoListItemBinding
+import com.example.mvvmlist.ui.adapter.viewholder.RepoListViewHolder
 import com.example.mvvmlist.viewmodel.RepoListViewModel
+
 
 class RepoListAdapter (private val repoListViewModel: RepoListViewModel) :
     RecyclerView.Adapter<RepoListViewHolder>() {
@@ -28,4 +31,5 @@ class RepoListAdapter (private val repoListViewModel: RepoListViewModel) :
         this.repoList = repoList
         notifyDataSetChanged()
     }
+
 }

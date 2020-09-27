@@ -36,7 +36,9 @@ class RepoListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewDataBinding.viewmodel?.fetchRepoList()
+        view.setOnClickListener {
 
+        }
         setupAdapter()
         setObservers()
     }
