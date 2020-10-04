@@ -1,20 +1,16 @@
 package com.example.mvvmlist.ui.adapter.viewholder
 
 import android.content.Intent
-import android.widget.Toast
 import androidx.databinding.ViewDataBinding
 import com.example.mvvmlist.BR
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mvvmlist.data.model.ApiResponse
 import com.example.mvvmlist.ui.DetailActivity
-import com.example.mvvmlist.ui.adapter.RepoListAdapter
-import com.example.mvvmlist.viewmodel.RepoListViewModel
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.view_repo_list_item.view.*
 
 class RepoListViewHolder constructor(
-    private val dataBinding: ViewDataBinding,
-    private val repoListViewModel: RepoListViewModel
+    private val dataBinding: ViewDataBinding
 ) : RecyclerView.ViewHolder(dataBinding.root) {
 
     val avatarImage = itemView.item_avatar
@@ -28,6 +24,7 @@ class RepoListViewHolder constructor(
             intent.putExtra("img", itemData.thumbnailUrl)
             context.startActivity(intent)
         }
+
         Picasso.get().load(itemData.thumbnailUrl).into(avatarImage)
     }
 }
