@@ -1,18 +1,21 @@
 package com.example.mvvmlist.data.repository
 
-import com.example.mvvmlist.data.api.ApiClient
+import com.example.mvvmlist.data.api.ApiService
 import com.example.mvvmlist.data.model.ApiResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class RepoListRepository {
+class RepoListRepository(val apiService: ApiService) {
     fun getRepoList(onResult: (isSuccess: Boolean, response: List<ApiResponse>?) -> Unit) {
 
-        ApiClient.instance.getRepo().enqueue(object : Callback<List<ApiResponse>> {
-            override fun onResponse(call: Call<List<ApiResponse>>?, response: Response<List<ApiResponse>>?) {
+        apiService.getRepo().enqueue(object : Callback<List<ApiResponse>> {
+            override fun onResponse(
+                call: Call<List<ApiResponse>>?,
+                response: Response<List<ApiResponse>>?
+            ) {
                 if (response != null && response.isSuccessful)
-                    onResult(true, response.body()!!)
+                    onResult(true, response.body())
                 else
                     onResult(false, null)
             }
@@ -22,14 +25,6 @@ class RepoListRepository {
             }
 
         })
-    }
-
-    companion object {
-        private var INSTANCE: RepoListRepository? = null
-        fun getInstance() = INSTANCE
-            ?: RepoListRepository().also {
-                INSTANCE = it
-            }
     }
 
 }
