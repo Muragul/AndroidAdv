@@ -3,7 +3,8 @@ package com.example.mvvmlist.di
 import org.koin.dsl.module
 import android.content.SharedPreferences
 import com.example.mvvmlist.data.api.ApiClient
-import com.example.mvvmlist.data.repository.RepoListRepository
+import com.example.mvvmlist.data.repository.RepoListDataStore
+import com.example.mvvmlist.domain.GetRepoListUseCase
 import com.example.mvvmlist.viewmodel.RepoListViewModel
 import org.koin.android.ext.koin.androidApplication
 import org.koin.androidx.viewmodel.dsl.viewModel
@@ -11,9 +12,12 @@ import org.koin.androidx.viewmodel.dsl.viewModel
 val viewModelModule = module {
     viewModel { RepoListViewModel(get()) }
 }
+val useCaseModule = module {
+    single { GetRepoListUseCase(get<RepoListDataStore>()) }
+}
 
 val repositoryModule = module {
-    single { RepoListRepository(get()) }
+    single { RepoListDataStore(get()) }
 }
 
 val networkModule = module {
