@@ -1,9 +1,13 @@
 package com.example.mvvmlist.di
 
+import android.app.Application
 import org.koin.dsl.module
 import android.content.SharedPreferences
+import androidx.room.Room
 import com.example.mvvmlist.data.api.ApiClient
 import com.example.mvvmlist.data.repository.RepoListDataStore
+import com.example.mvvmlist.db.PostDao
+import com.example.mvvmlist.db.PostDatabase
 import com.example.mvvmlist.domain.GetRepoListUseCase
 import com.example.mvvmlist.viewmodel.RepoListViewModel
 import org.koin.android.ext.koin.androidApplication
@@ -17,7 +21,7 @@ val useCaseModule = module {
 }
 
 val repositoryModule = module {
-    single { RepoListDataStore(get()) }
+    single { RepoListDataStore(get(), get()) }
 }
 
 val networkModule = module {
@@ -34,4 +38,21 @@ val sharedPrefModule = module {
         androidApplication().getSharedPreferences("default", android.content.Context.MODE_PRIVATE)
             .edit()
     }
+}
+val databaseModule = module {
+    fun provideDatabase(application: Application): PostDatabase {
+        return Room.databaseBuilder(
+            application,
+            PostDatabase::class.java,
+            "posts_database.db"
+        ).allowMainThreadQueries()
+            .build()
+    }
+
+    fun provideDao(database: PostDatabase): PostDao {
+        return database.postDao()
+    }
+
+    single { provideDatabase(androidApplication()) }
+    single { provideDao(get()) }
 }
