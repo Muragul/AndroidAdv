@@ -1,0 +1,2 @@
+com/example/pagingapplication/BuildConfig.java
+ com.example.pagingapplication.BuildConfig

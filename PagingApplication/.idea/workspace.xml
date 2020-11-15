@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c8f36b3-05e9-409e-a7e5-99f6ff611257" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../5 semester/Android Advanced.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/CyberSecurity Fundamentals.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/IT Infrastructure.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/books/Strategic_Reading_2_www.frenglish.ru (1) (1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/books/brewer_jl_dittman_kc_methods_of_it_project_management (1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/books/kerzner_harold_project_management_case_studies.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/books/schwalbe_kathy_information_technology_project_management-2018.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/homeworks/PM_HW#1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/homeworks/PM_HW#2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/homeworks/PM_HW#3.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/homeworks/PM_Trojan#1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 semester/homeworks/PM_Trojan_Case #1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_4_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_4_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_14_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_72_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_72_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_72_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/src/main/java/com/example/mvvmlist/data/repository/BaseDataStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/src/main/java/com/example/mvvmlist/data/repository/RepoListDataStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/src/main/java/com/example/mvvmlist/domain/GetRepoListUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidAdvanced/MVVMList/app/src/main/java/com/example/mvvmlist/domain/RepoListRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fast.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KBTU TITLE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/androidTest/java/com/example/recipeapp/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/app/src/test/java/com/example/recipeapp/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecipeApp/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinXP_KL_Course/Logs/VBox.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinXP_KL_Course/Logs/VBoxStartup.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinXP_KL_Course/WinXP_KL_Course-disk1.vmdk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinXP_KL_Course/WinXP_KL_Course.vbox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WinXP_KL_Course/WinXP_KL_Course.vbox-prev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../~$ Infrastructure.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS/git.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/7.1.2.9 Lab - Converting IPv4 Addresses to Binary.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/7.1.4.9 Lab - Identifying IPv4 Addresses.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/CN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab1.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab10.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab10_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab11.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab11_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab1_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab2.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab2_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab3.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab3_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab4.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab4_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab5.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab5_Part2.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab5_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab6.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab6_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab7.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab7_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab8_Part1.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab8_Part2.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab8_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab9.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Lab9_[Muragul]_[Muratbekova].docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Practice Final Exam Answers Full 138.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/Task1.pkt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CN/itexamanswers_net_CCNA_1_Final_Exam.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Endterm/buiryk.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Endterm/hattama.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Endterm/kyzmettikhat.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Endterm/minezdeme.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Endterm/uzindi.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Endterm/СРСП 2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/Autobiography.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/Day plan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/Latin alpha.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/habarlandiru.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/kuttyktau.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/senimhat.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/visit.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/СРС - орысша.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/СРС.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/Срс.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/Таблица для РЕЗЮМЕ.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Midterm/глоссарий.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/sozdik.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KZ/Силлабус  ДКЯ  ОС 19-20 (НОВЫЙ).doc" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[2a48d1df40047ece]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jyLbuTNOHzBQR2AicQbTnAggDK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="PagingApplication.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c8f36b3-05e9-409e-a7e5-99f6ff611257" name="Default Changelist" comment="" />
+      <created>1604771459386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604771459386</updated>
+    </task>
+    <servers />
+  </component>
+</project>
