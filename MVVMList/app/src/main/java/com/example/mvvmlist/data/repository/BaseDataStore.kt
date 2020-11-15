@@ -33,29 +33,11 @@ abstract class BaseDataStore(
                         result.value = response.body()
                         result.value?.let { postDao.add(it) }
                     } else {
-                        val data = withContext(Dispatchers.IO) {
-                            postDao.findAll()
-                        }
-                        if (data.isNotEmpty())
-                            result.value = postDao.findAll()
                         Timber.d("Error occurred with code ${response.code()}")
-
                     }
                 } catch (e: HttpException) {
-                    val data = withContext(Dispatchers.IO) {
-                        postDao.findAll()
-                    }
-                    if (data.isNotEmpty()) {
-                        result.value = postDao.findAll()
-                    }
                     Timber.d("Error: ${e.message()}")
                 } catch (e: Throwable) {
-                    val data = withContext(Dispatchers.IO) {
-                        postDao.findAll()
-                    }
-                    if (data.isNotEmpty()) {
-                        result.value = postDao.findAll()
-                    }
                     Timber.d("Error: ${e.message}")
                 }
             }
